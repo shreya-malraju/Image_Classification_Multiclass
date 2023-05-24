@@ -62,24 +62,24 @@ After that, to set the loss method, we must define the dictionary and also for t
 Training and Saving the best modelHere, we must save the best model from all the epochs and also we compile the model and obtain the model summary.
 
 We then perform training on the model.The following is the result obtained - 
-https://static.wixstatic.com/media/5a03fc_6cb3be1955fd4cda96181fe0612608f3~mv2.jpg![image](https://github.com/shreya-malraju/Image_Classification_Multiclass/assets/132793649/9f92b633-ed72-4a3e-b0bd-ea920c55f45f)
+https://static.wixstatic.com/media/5a03fc_6cb3be1955fd4cda96181fe0612608f3~mv2.jpg![image](https://github.com/shreyamalraju/Image_Classification_Multiclass/assets/132793649/9f92b633-ed72-4a3e-b0bd-ea920c55f45f)
 
 We see that the best accuracy is obtained from 8th epoch and it is 93.33 percent.
 
 Visualizing the obtained results in terms of Loss and Accuracy
 
-We plot the graph between training loss and validation loss and obtain the following https://static.wixstatic.com/media/5a03fc_52dfdef03ab8412db0cec9bb76c5c941~mv2.jpg/v1/fill/w_1480,h_902,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5a03fc_52dfdef03ab8412db0cec9bb76c5c941~mv2.jpg![image](https://github.com/shreya-malraju/Image_Classification_Multiclass/assets/132793649/7e9f65e5-52e3-487c-b654-6cd19328b0c5)
+We plot the graph between training loss and validation loss and obtain the following https://static.wixstatic.com/media/5a03fc_52dfdef03ab8412db0cec9bb76c5c941~mv2.jpg/v1/fill/w_1480,h_902,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5a03fc_52dfdef03ab8412db0cec9bb76c5c941~mv2.jpg![image](https://github.com/shreyamalraju/Image_Classification_Multiclass/assets/132793649/7e9f65e5-52e3-487c-b654-6cd19328b0c5)
 
-The graph between Accuracy and validation accuracy is as follows https://static.wixstatic.com/media/5a03fc_0ff26b682e6e409e9f78be24c855a4ee~mv2.jpg/v1/fill/w_1480,h_902,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5a03fc_0ff26b682e6e409e9f78be24c855a4ee~mv2.jpg![image](https://github.com/shreya-malraju/Image_Classification_Multiclass/assets/132793649/a814c10e-74c6-4d38-8c1f-5c4aa3c27afa)
+The graph between Accuracy and validation accuracy is as follows https://static.wixstatic.com/media/5a03fc_0ff26b682e6e409e9f78be24c855a4ee~mv2.jpg/v1/fill/w_1480,h_902,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5a03fc_0ff26b682e6e409e9f78be24c855a4ee~mv2.jpg![image](https://github.com/shreyamalraju/Image_Classification_Multiclass/assets/132793649/a814c10e-74c6-4d38-8c1f-5c4aa3c27afa)
 
 Testing
 
 We load the best model obtained for testing and then predict the labels of test images.We predict the class label of the 10 testing images and observe that all the values are predicted correctly and hence the model performs pretty decent.
 
 Output
-https://static.wixstatic.com/media/5a03fc_6a8720c1dddb4b9b8162b1cf6186ded2~mv2.jpg/v1/fill/w_1480,h_790,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5a03fc_6a8720c1dddb4b9b8162b1cf6186ded2~mv2.jpg![image](https://github.com/shreya-malraju/Image_Classification_Multiclass/assets/132793649/85a1bc22-6b58-4600-88bb-542ee74303f3)
+https://static.wixstatic.com/media/5a03fc_6a8720c1dddb4b9b8162b1cf6186ded2~mv2.jpg/v1/fill/w_1480,h_790,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5a03fc_6a8720c1dddb4b9b8162b1cf6186ded2~mv2.jpg![image](https://github.com/shreyamalraju/Image_Classification_Multiclass/assets/132793649/85a1bc22-6b58-4600-88bb-542ee74303f3)
 
-https://static.wixstatic.com/media/5a03fc_a364bfa2896c496cbae14d2e43864061~mv2.jpg/v1/fill/w_1480,h_702,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5a03fc_a364bfa2896c496cbae14d2e43864061~mv2.jpg![image](https://github.com/shreya-malraju/Image_Classification_Multiclass/assets/132793649/18b83f99-e8ca-4d3d-b7fb-64e2a558489a)
+https://static.wixstatic.com/media/5a03fc_a364bfa2896c496cbae14d2e43864061~mv2.jpg/v1/fill/w_1480,h_702,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5a03fc_a364bfa2896c496cbae14d2e43864061~mv2.jpg![image](https://github.com/shreyamalraju/Image_Classification_Multiclass/assets/132793649/18b83f99-e8ca-4d3d-b7fb-64e2a558489a)
 
 CONTRIBUTION
 
@@ -88,18 +88,18 @@ The above model performs pretty well but in the process of increasing the accura
 Experiment 1 : Increasing the number of epochs - 
 
 Previously, the number of epochs were 9 I tried increasing them to 40 and hence got better accuracy.
-https://static.wixstatic.com/media/5a03fc_196923baff024c0380e5b4fd740df9a7~mv2.jpg/v1/fill/w_1480,h_702,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5a03fc_196923baff024c0380e5b4fd740df9a7~mv2.jpg![image](https://github.com/shreya-malraju/Image_Classification_Multiclass/assets/132793649/69fb0f15-5e7b-43e4-b604-80c07b20f3cd)
+https://static.wixstatic.com/media/5a03fc_196923baff024c0380e5b4fd740df9a7~mv2.jpg/v1/fill/w_1480,h_702,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5a03fc_196923baff024c0380e5b4fd740df9a7~mv2.jpg![image](https://github.com/shreyamalraju/Image_Classification_Multiclass/assets/132793649/69fb0f15-5e7b-43e4-b604-80c07b20f3cd)
 
 We see that previously, the accuracy was 93.33 percent, but after increasing the epochs, the accuracy got increased to 98.61 and hence the model is performing even better.
 
 We also analysed the loss and accuracy by plotting the performance.
-https://static.wixstatic.com/media/5a03fc_ef58e500c5964afbb51f8cb3e9a9bb38~mv2.jpg/v1/fill/w_1480,h_894,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5a03fc_ef58e500c5964afbb51f8cb3e9a9bb38~mv2.jpg![image](https://github.com/shreya-malraju/Image_Classification_Multiclass/assets/132793649/5d76470f-63bd-406e-867a-049ac734ef7a)
+https://static.wixstatic.com/media/5a03fc_ef58e500c5964afbb51f8cb3e9a9bb38~mv2.jpg/v1/fill/w_1480,h_894,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5a03fc_ef58e500c5964afbb51f8cb3e9a9bb38~mv2.jpg![image](https://github.com/shreyamalraju/Image_Classification_Multiclass/assets/132793649/5d76470f-63bd-406e-867a-049ac734ef7a)
 
-https://static.wixstatic.com/media/5a03fc_ae06db9ad65b456b858fafc3b63a852d~mv2.jpg/v1/fill/w_1480,h_894,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5a03fc_ae06db9ad65b456b858fafc3b63a852d~mv2.jpg![image](https://github.com/shreya-malraju/Image_Classification_Multiclass/assets/132793649/f4bd51a0-964e-4874-a94f-820003058180)
+https://static.wixstatic.com/media/5a03fc_ae06db9ad65b456b858fafc3b63a852d~mv2.jpg/v1/fill/w_1480,h_894,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5a03fc_ae06db9ad65b456b858fafc3b63a852d~mv2.jpg![image](https://github.com/shreyamalraju/Image_Classification_Multiclass/assets/132793649/f4bd51a0-964e-4874-a94f-820003058180)
 
 Experiment 2  : Number of Layers
 
-Previously, there were only 2 layers and I tried increasing it to 3 and hence the accuracy is also increased from 93.33 to 97.22https://static.wixstatic.com/media/5a03fc_de6879d6758a475c9ac84c2e7d63a6af~mv2.jpg![image](https://github.com/shreya-malraju/Image_Classification_Multiclass/assets/132793649/86222931-9006-4642-ae25-658a3de25291)
+Previously, there were only 2 layers and I tried increasing it to 3 and hence the accuracy is also increased from 93.33 to 97.22https://static.wixstatic.com/media/5a03fc_de6879d6758a475c9ac84c2e7d63a6af~mv2.jpg![image](https://github.com/shreyamalraju/Image_Classification_Multiclass/assets/132793649/86222931-9006-4642-ae25-658a3de25291)
 
 From the above two experiments, the highest accuracy is obtained from increasing the number of epochs and hence the performance of the model is increased.
 
